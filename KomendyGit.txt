@@ -1,0 +1,22 @@
+BASIC COMMANDS
+$ git init // Initialize Local Git Repository
+$ git add <file> // Add File(s) To Index
+$ git status // Check Status Of Working Tree
+$ git commit -m 'to co robisz' // Commit Changes In Index
+    // I   ---> pisz co chcesz (# - oznacza komentarz) ---> ESC ---> wq
+        //-m 'Changed app.js'  - zamiast defaultowego komentarza
+$ git remote add origin// <-- to chyba jest nazwa gałęzi internetowej // https://github.com/DamianSikoraUEK/nazwarepozytorium.git
+                                // wrzucam zmiany z kompa do neta
+$ git push (-u origin // <-- to chyba jest nazwa gałęzi internetowej // nazwagałęzilokalnej)// Push To Remote Repository
+$ git pull // Pull Latest From Remote Repository // aktualizacja z neta na kompa
+$ git clone (link do repozytorium)// Clone Repository Into A New Directory - klonuj na kompa
+$ git rm <file> // Remove File(s) From Index
+$ git add . // Add Every File From Folder
+
+$touch .gitignore //stworzenie pliku, do ktorego mozemy dodac nazwy plikow (np log.txt),
+                    folderow (np /dir2), czy tez wszystkich plikow pewnego rodzaju (np .txt)
+                    ktore nie chcemy dodawac przy git add .
+
+$git branch nazwa // tworzenie nowej galezi projektow
+$git checkout nazwa // przelaczenie do nowej galezi projektow
+$git merge nazwa // łączenie gałęzi
