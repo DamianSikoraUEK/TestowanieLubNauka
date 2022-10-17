@@ -1,3 +1,4 @@
+10.07
 2. Explain
 
 A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical,
@@ -31,6 +32,101 @@ https://www.w3schools.com/python/python_operators.asp
 4
 https://docs.python.org/3/tutorial/introduction.html
 
+17.07
+1. Jakie instrukcje języka programowania są używane do obsługi decyzji i warunkowego wykonywania obliczeń i działań
+	if, elif, else, then; for; while
+2. Uzycie if then else
+if len(x) <6:
+	print...
+
+if number %2==0:
+	print...
+else:
+	print...
+
+if a!=b and b!=c and a!=c:
+	print...
+elif a == b and b ==c:
+	print...
+else:
+	print...
+
+3. for
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)        - wypisuje itemy z listy
+  if x == "banana":
+    break	  - gdy dojdzie do banana, przerywa
+
+for x in "banana":
+  print(x)        - wypisuje litery z banana
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue      - skipuje banana
+  print(x)
+
+for x in range(2, 6):
+  print(x)        - cyfry od 2 do 5
+
+for x in range(2, 30, 3):
+  print(x)	  - skacze co 3
+
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+
+for x in [0, 1, 2]:
+  pass
+
+
+
+while
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+
+
+4.
+for number in range(3)
+	print("Attempt", number + 1, (number + 1) * ".") --- wyprintuje attempt, numer i ilosc kropek zaleznie od
+
+
+for x in range(5)
+	for y in range(3)
+		print(f"({x},{y})")	---- 0,0   0,1   0,2   1,0   1,1...
+
+5. debugging
+Debugging is the process of detecting and removing of existing and potential errors (also called as 'bugs') in a software code that can cause it to behave unexpectedly or crash.
+To prevent incorrect operation of a software or system, debugging is used to find and resolve bugs or defects.
+
+to debug use thonny
 
 
 
