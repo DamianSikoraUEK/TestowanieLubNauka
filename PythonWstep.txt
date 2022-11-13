@@ -129,6 +129,17 @@ To prevent incorrect operation of a software or system, debugging is used to fin
 to debug use thonny
 
 
+14.11
+
+No	List									Array
+1.	The list can store the value of different types.			It can only consist of value of same type.
+2.	The list cannot handle the direct arithmetic operations.		It can directly handle arithmetic operations.
+3.	We need to import the array before work with the array.			The lists are the build-in data structure so we don't need to import it.
+4.	The lists are less compatible than the array to store the data.		An array are much compatible than the list.
+5.	It consumes a large memory.						It is a more compact in memory size comparatively list.
+6.	It is suitable for storing the longer sequence of the data item.	It is suitable for storing shorter sequence of data items.
+7.	We can print the entire list using explicit looping.			We can print the entire list without using explicit looping.
+8.	It can be nested to contain different types of elements.		It must contain either all nested elements of same size.
 
 
 
